@@ -7,7 +7,7 @@
 }
 
 .bloc{
-    margin: 70px;
+    margin: 15px;
 }
 
 .page-cv__title{
@@ -31,26 +31,29 @@
     color: rgba(19, 59, 107, 0.8);
 }
 
-/*first column*/
-.first-column {
+/*header*/
+#name-title{
+    text-align: left;
+    font-size: 2.5rem;
+    margin-top:30px;
+    margin-left:50px;
+    margin-bottom:40px ;
+}
+.first-column__header{
     background-color: rgba(200, 222, 248, 0.8);
-    border-radius: 60px;
-    border-color: white;
-    border-style: solid;
-    border-width: 20px;  
 }
 
-.test{
-    height: 100%
-}
-
-.picture-of-me {
-    margin-top:20px; 
+.picture-box_picture {
+    margin-top:30px; 
+    margin-bottom:70px;
     border-radius: 50%;
     width: 50%;
-/*    height: 400px;
-    width: 400px;
-    padding: 30px;*/
+}
+
+
+/*first column*/
+.first-column {
+    background-color: rgba(200, 222, 248, 0.8); 
 }
 
 .first-column__title {
@@ -75,11 +78,7 @@
 
 
 /*2nd column*/
-.name-title h1,h2 {
-    text-align: left;
-    margin: 20px;
-    font-size: 2.5rem;
-}
+
 
 .second-column__title {
     margin: 50px;
