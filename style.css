@@ -8,6 +8,7 @@
 
 .bloc{
     margin: 15px;
+    margin-bottom: 50px;
 }
 
 .page-cv__title{
@@ -35,9 +36,7 @@
 #name-title{
     text-align: left;
     font-size: 2.5rem;
-    margin-top:30px;
-    margin-left:50px;
-    margin-bottom:40px ;
+    margin:50px;
 }
 .first-column__header{
     background-color: rgba(200, 222, 248, 0.8);
@@ -45,9 +44,9 @@
 
 .picture-box_picture {
     margin-top:30px; 
-    margin-bottom:70px;
+    margin-bottom:30px;
     border-radius: 50%;
-    width: 50%;
+    width: 33%;
 }
 
 
@@ -66,7 +65,7 @@
 }
 
 .first-column_text-contact {
-    margin: 10px;
+    margin: 20px;
     text-align: left;
 }
 
@@ -114,7 +113,8 @@
 }
 
 .recommendation__box{
-    text-align: left
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 
