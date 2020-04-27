@@ -1,22 +1,22 @@
-.page-cv{
- font-size: 1.5rem;
- font-family: arial;
- font-weight: lighter;
- text-align: center;
+.page-cv {
+    font-size: 1.5rem;
+    font-family: arial;
+    font-weight: lighter;
+    text-align: center;
 }
 
-.bloc{
+.bloc {
     padding: 15px;
     margin-bottom: 50px;
 }
 
-.page-cv__title{
+.page-cv__title {
     font-size: 2rem;
     color: rgba(19, 59, 107, 0.8);
     margin: 20px
 }
 
-.page-cv p{
+.page-cv p {
     font-size: 1.5rem;
     color: rgba(19, 59, 107, 0.8);
 }
@@ -25,35 +25,38 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
-    font-size: 3.5rem; 
+    font-size: 3.5rem;
     color: rgba(19, 59, 107, 0.8);
 }
 
 
 /*header*/
-.first-column__header{
+
+.first-column__header {
     background-color: rgba(200, 222, 248, 0.8);
 }
 
 .picture-box_picture {
-    margin-top:30px; 
-    margin-bottom:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 50%;
     width: 33%;
 }
 
-#name-title{
+#name-title {
     text-align: left;
     font-size: 2.5rem;
-    margin:50px;
+    margin: 50px;
 }
 
+
 /*first column*/
+
 .first-column {
     /*display: flex;
     flex-direction: column;
-    justify-content: space-between;        ----> To respect the model uncomment*/ 
-    background-color: rgba(200, 222, 248, 0.8); 
+    justify-content: space-between;        ----> To respect the model uncomment*/
+    background-color: rgba(200, 222, 248, 0.8);
 }
 
 .first-column__title {
@@ -68,11 +71,13 @@
     text-align: left;
 }
 
-.hobbie{
+.hobbie {
     margin-bottom: 30px;
 }
 
+
 /*2nd column*/
+
 .second-column__title {
     margin: 50px;
     text-align: left;
@@ -81,17 +86,22 @@
 
 .box {
     display: flex;
-    align-items: baseline; /*useless*/
+    align-items: baseline;
+    /*useless*/
     margin-top: 25px;
 }
 
+
 /*to separate the differente <p>*/
+
 .box p {
     width: 100%;
 }
 
+
 /*The point before box, fontawesome*/
-.box i {  
+
+.box i {
     font-size: 0.8rem;
     color: rgba(19, 59, 107, 0.8);
 }
@@ -105,20 +115,23 @@
     border-style: solid;
     border-color: rgba(19, 59, 107, 0.8);
     border-width: 2px;
-    border-radius: 22.5px; /*50% -> 45/2*/
+    border-radius: 22.5px;
+    /*50% -> 45/2*/
 }
 
-.recommendation__box{
+.recommendation__box {
     text-align: left;
     margin-bottom: 30px;
 }
 
+
 /*generic*/
-.strong{
+
+.strong {
     font-weight: bold;
 }
 
-.italic{
+.italic {
     font-style: italic;
     font-size: 1.2rem;
 }
